@@ -23,7 +23,7 @@ This analysis summarized data from a Colorado local congressional election. The 
   - The winner had a vote count of 272,892
   - The winner recieved 73.8% of the total votes cast. 
  
- ![image_name](path/to/image_name.png).
+ ![output.png](Resources/output.png).
 
 ## Summary Proposal
 This script is a valueble investment to summarize any election. It may be used with any number of candidates and counties. The code can be modified to be used for new elections by changing the file path and name to where the new election data is stored. The indexing of columns can be modified to match file data that is in a different order. For different sizes of elecitons, the returned message may be modified to reflect different types of voting districts. One potential addition would be to break down the votes cast in each county for each candidate. To do this, we could rerun the candidate counts for each county, or use an "if" conditional statement to add to distinct counter variables. If voter demographic information is availible, we could also create counts for different demographic categories for each candidate. 
